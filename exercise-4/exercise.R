@@ -2,12 +2,11 @@
 
 # Read data into a variable called `grants` using the `read.csv` function
 # Make sure *not* to read the strings as factors
-
+grants <- read.csv('gates_money.csv', stringsAsFactors = FALSE)
 # Use the View function to look at your data
-
+View(grants)
 
 # Create a variable `spending` as the `total_amount` column of the dataset
-
 
 # Confirm that your `spending` variable is a vector using the `is.vector` function
 
